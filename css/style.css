@@ -1,0 +1,104 @@
+.frage {
+  font-size: 1.25em;
+  font-weight: normal;
+  color:black;
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom : 20px;
+  font-family: "Courier New", "Courier", "monospace";
+}
+
+.frage h1 {
+    font-size: 1.2em;
+}
+
+#antwort {
+  font-family : "Lucida Console", Monaco, monospace;
+  font-size: large;
+  font-weight: bold;
+  color: blue;
+}
+
+.float-right {
+  float: right;
+}
+
+
+.richtig {
+  height: 150px;
+  width : 100%;
+  padding: 20px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align:center;
+  font-size: 5rem;
+  line-height: 10rem;
+}
+
+body {
+    transition: background-color 500ms;
+}
+
+.richtig-hintergrund {
+    background-color: rgba(0,255,0,0.5);
+}
+.falsch-hintergrund {
+    background-color: rgba(255,0,0,0.5);
+}
+
+.falsch {
+  height: 150px;
+  width : 100%;
+  padding: 20px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align:center;
+  font-size: 5rem;
+  line-height: 10rem;
+}
+
+
+.multiple-choice-option {
+    margin-top: 12px !important;
+    background-color:red;
+}
+
+.multiple-choice-option ~label {
+    display       : block;
+    min-height    : 40px;
+    width         : calc(100% - 20px);
+    float         : right;
+    border        : 1px solid gray;
+    border-radius : 5px;
+    padding       : 5px;
+}
+
+.multiple-choice-option:checked ~label {
+    background-color: yellow
+}
+
+.multiple-choice-option--richtig {
+    background-color: green;
+}
+
+.multiple-choice-option--falsch {
+    background-color: red;
+}
+
+#positionsangabe {
+    float:right;
+}
+
+#training {
+    float:left;
+    font-weight: bold;
+}
+
+.indent-1 {
+    margin-left: 1.25em;
+}

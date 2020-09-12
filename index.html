@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Trainer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet prefetch" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Trainer</a>
+                <a class="navbar-brand">&nbsp;&nbsp;&nbsp;<span id="bilanz"></span></a>
+            </div>
+            <div id="navbar" class="navbar-collapse collapse">
+            </div>
+            <!--/.navbar-collapse -->
+        </div>
+    </nav>
+
+    <div class="container konfigurations-bereich">
+        <div class="row">
+            <div class="col-sm-12">
+                 <h2>Konfiguration</h2>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-6">
+
+                <h3>Stelle Fragen aus folgenden Trainings zusammen</h3>
+                
+                <div id="verfuegbare-trainings">
+                    <ul class="list-unstyled">
+                        <li><label for="training-1"><input type="checkbox" id="training-1" /> Training 1</label></li>
+                        <li><label for="training-2"><input type="checkbox" id="training-2" /> Training 2</label></li>
+                        <li><label for="training-3"><input type="checkbox" id="training-3" /> Training 3</label></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                
+                <h3>So viele Fragen möchte ich gerne bearbeiten</h3>
+                
+                <div id="anzahl-auswahl">
+                    <ul class="list-unstyled">
+                        <li><label for="anzahl-5"><input type="radio" name="anzahl-aufgaben" id="anzahl-5" /> Anzahl 5 (für hartnäckige Themen)</label></li>
+                        <li><label for="anzahl-30"><input type="radio" name="anzahl-aufgaben" id="anzahl-30" /> Anzahl 30 (ca. 45 Minuten)</label></li>
+                        <li><label for="anzahl-45"><input type="radio" name="anzahl-aufgaben" id="anzahl-45" /> Anzahl 45 (ca. 1 Stunde)</label></li>
+                        <li><label for="anzahl-100"><input type="radio"  name="anzahl-aufgaben" id="anzahl-100" /> Anzahl 100 (ca. 2 Stunden, Intensivtraining)</label></li>
+                        <li><label for="anzahl-alle"><input type="radio"  name="anzahl-aufgaben" id="anzahl-alle" /> Alle Aufgaben, die du hast!</label></li>
+                    </ul>
+                </div>
+
+                <h3>Reihenfolge</h3>
+                <div id="reihenfolge">
+                    <ul class="list-unstyled">
+                        <li><label for="reihenfolge-nacheinander"><input type="radio" name="reihenfolge" id="reihenfolge-nacheinander" checked/> Nacheinander</label></li>
+                        <li><label for="reihenfolge-zufall"><input type="radio" name="reihenfolge" id="reihenfolge-zufall" /> Zufällig</label></li>
+                    </ul>
+                </div>
+                <br/><br/>
+                <button id="training-starten" class="btn btn-primary">Training starten</button>                                
+            </div>            
+        </div>
+    </div>
+
+    <div class="container vokabeltrainer-bereich">
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div id="training"></div>
+                <div id="positionsangabe"></div>
+            </div>
+        </div>        
+        
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="frage">
+                    Dies ist eine Frage!
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <label>Deine Antwort</label>
+                <div class="fragentyp-text">
+                    <textarea id="antwort" class="form-control" rows=15></textarea>
+                </div>
+                <div class="fragentyp-multiple-choice">
+                    <div class="alert alert-info">
+                        Option 1
+                    </div>
+                    <div class="alert alert-info">
+                        Option 2
+                    </div>
+                </div>
+                <br>
+                <div class="float-right">
+                    <button class="btn btn-default" id="antwortAnzeigen">Antwort anzeigen</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class="btn btn-primary" id="antworten">Antworten! (Strg+Enter)</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="antwort">
+                    <br/>
+                    <div id="ergebnis"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/md5.js"></script>
+    <script src="js/tools.js"></script>
+    <script>
+        var trainings = [];
+    </script>
+    <script src="js/alle-trainings.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
