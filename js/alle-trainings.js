@@ -44,10 +44,10 @@ var frenchTraining = {
 (_frenchTraining$frage29 = frenchTraining.fragen).push.apply(_frenchTraining$frage29, _toConsumableArray(Beidseitig("29", "vingt-neuf")));
 (_frenchTraining$frage30 = frenchTraining.fragen).push.apply(_frenchTraining$frage30, _toConsumableArray(Beidseitig("30", "trente")));
 
-(_frenchTraining$frage31 = frenchTraining.fragen).push.apply(_frenchTraining$frage31, _toConsumableArray(Beidseitig("der Fr\xFChling", "l'\xE9t\xE9")));
+(_frenchTraining$frage31 = frenchTraining.fragen).push.apply(_frenchTraining$frage31, _toConsumableArray(Beidseitig("der Fr\xFChling", "le printemps")));
 (_frenchTraining$frage32 = frenchTraining.fragen).push.apply(_frenchTraining$frage32, _toConsumableArray(Beidseitig("der Sommer", "l'\xE9t\xE9")));
-(_frenchTraining$frage33 = frenchTraining.fragen).push.apply(_frenchTraining$frage33, _toConsumableArray(Beidseitig("der Herbst", "l'\xE9t\xE9")));
-(_frenchTraining$frage34 = frenchTraining.fragen).push.apply(_frenchTraining$frage34, _toConsumableArray(Beidseitig("der Winter", "l'\xE9t\xE9")));
+(_frenchTraining$frage33 = frenchTraining.fragen).push.apply(_frenchTraining$frage33, _toConsumableArray(Beidseitig("der Herbst", "l'automne")));
+(_frenchTraining$frage34 = frenchTraining.fragen).push.apply(_frenchTraining$frage34, _toConsumableArray(Beidseitig("der Winter", "l'hiver")));
 
 (_frenchTraining$frage35 = frenchTraining.fragen).push.apply(_frenchTraining$frage35, _toConsumableArray(Beidseitig("Da bin ich mir sicher!", "J'en suis certain!")));
 (_frenchTraining$frage36 = frenchTraining.fragen).push.apply(_frenchTraining$frage36, _toConsumableArray(Beidseitig("en milieu de journ\xE9e", "Mittags")));

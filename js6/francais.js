@@ -38,10 +38,10 @@ frenchTraining.fragen.push(... Beidseitig(`28`, `vingt-huit`));
 frenchTraining.fragen.push(... Beidseitig(`29`, `vingt-neuf`));
 frenchTraining.fragen.push(... Beidseitig(`30`, `trente`));
 
-frenchTraining.fragen.push(... Beidseitig(`der Frühling`, `l'été`));
+frenchTraining.fragen.push(... Beidseitig(`der Frühling`, `le printemps`));
 frenchTraining.fragen.push(... Beidseitig(`der Sommer`, `l'été`));
-frenchTraining.fragen.push(... Beidseitig(`der Herbst`, `l'été`));
-frenchTraining.fragen.push(... Beidseitig(`der Winter`, `l'été`));
+frenchTraining.fragen.push(... Beidseitig(`der Herbst`, `l'automne`));
+frenchTraining.fragen.push(... Beidseitig(`der Winter`, `l'hiver`));
 
 frenchTraining.fragen.push(... Beidseitig(`Da bin ich mir sicher!`, `J'en suis certain!`));
 frenchTraining.fragen.push(... Beidseitig(`en milieu de journée`, `Mittags`));
