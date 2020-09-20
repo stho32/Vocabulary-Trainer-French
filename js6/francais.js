@@ -42,7 +42,7 @@ frenchTraining.fragen.push(... Beidseitig(`der Winter`, `l'hiver`));
 frenchTraining.fragen.push(... Beidseitig(`Da bin ich mir sicher!`, `J'en suis certain!`));
 frenchTraining.fragen.push(... Beidseitig(`mittags`, `en milieu de journée`));
 frenchTraining.fragen.push(... Beidseitig(`mehr als alles andere`, `plus que tout`));
-frenchTraining.fragen.push(... Beidseitig(`nächste, nächster`, `prochain, prochaine`));
+frenchTraining.fragen.push(... Beidseitig(`nächster, nächste`, `prochain, prochaine`));
 frenchTraining.fragen.push(... Beidseitig(`er wurde ausgebuht`, `il a été conspuer`));
 frenchTraining.fragen.push(... Beidseitig(`gelb`, `jaune`));
 frenchTraining.fragen.push(... Beidseitig(`rot`, `rouge`));
