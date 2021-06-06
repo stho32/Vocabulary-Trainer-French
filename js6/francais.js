@@ -1,7 +1,7 @@
 
 var frenchTraining = {
     name: "Apprendre français",
-    description: "Learning french with Fawda",
+    description: "Learning french with Fadwa",
 
     fragen: []
 };
