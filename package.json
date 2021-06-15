@@ -1,19 +1,18 @@
 {
-  "name": "vokabeltrainer-2",
+  "name": "vocabulary-trainer-french",
   "version": "1.0.0",
-  "description": "A Pen created at CodePen.io. You can find this one at http://codepen.io/stho/pen/ZbOyge.",
+  "description": "A small french-german trainer written in JavaScript",
   "main": "index.js",
   "scripts": {
-    "test": "node --version",
-    "build": "node babel .\\js6\\training-guide-ms-70-480.js --out-file .\\js\\training-guide-ms-70-480.js"
+    "test": "node --version"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://StHoffmann@bitbucket.org/StHoffmann/vokabeltrainer-2.git"
+    "url": "https://github.com/stho32/Vocabulary-Trainer-French.git"
   },
   "author": "Stefan Hoffmann",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/StHoffmann/vokabeltrainer-2#readme",
+  "homepage": "https://github.com/stho32/Vocabulary-Trainer-French",
   "devDependencies": {
     "babel-cli": "6.4.5",
     "babel-preset-es2015": "6.3.13"
